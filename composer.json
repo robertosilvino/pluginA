@@ -1,0 +1,19 @@
+{
+    "name": "moodleufsc/pluginA",
+    "description": "Plugin A",
+    "keywords": ["moodle"],
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Universidade Federal de Santa Catarina",
+            "email": "roberto.silvino@ufsc.br"
+        }
+    ],
+    "type": "moodle-block",
+    "require": {
+      "composer/installers": "~1.0"
+    },
+    "extra": {
+      "installer-name": "pluginA"
+    }
+}
